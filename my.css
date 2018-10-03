@@ -1,13 +1,15 @@
 
 html {
 	font-size: 10px;
+
 }
 
 
 body {
-	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;
+	margin: 10;  padding: 10;  margin-bottom: 15px;  margin-top: 8px;
 	font-family: 'OpenSans', sans-serif;
 	background: #000 url(img/main-bg.jpg) center center no-repeat;
+	width: 100%;
 }
 
 #sidebar {
@@ -22,13 +24,14 @@ color: lightblue;
 
 .main {
 
-display:table;
 width: 100%;
 text-align: center;
 color: #fff;
 height: 100vh;
-background: #000 url(img/main-bg.jpg) center center no-repeat;
+/*background: #000 url(img/main-bg.jpg) center center no-repeat;
 position: relative;
+display:table;
+*/
 }
 
 .main h1 {
